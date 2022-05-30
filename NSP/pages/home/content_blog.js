@@ -2,7 +2,7 @@
 export const content_blog = [
     {
         title: 'Content 1',
-        image: '../Assets/Content/Content1.jpeg',
+        image: '../Assets/Content/Content1.JPEG',
         info: '\
         Не следует, однако, забывать, что реализация \
         намеченных плановых заданий способствует подготовке \
@@ -23,7 +23,7 @@ export const content_blog = [
     },
     {
         title: 'Content 2',
-        image: '../Assets/Content/Content2.jpeg',
+        image: '../Assets/Content/Content2.JPEG',
         info: '\
         Не следует, однако, забывать, что реализация \
         намеченных плановых заданий способствует подготовке \
@@ -44,7 +44,7 @@ export const content_blog = [
     },
     {
         title: 'Content 3',
-        image: '../Assets/Content/Content3.jpeg',
+        image: '../Assets/Content/Content3.JPEG',
         info: '\
         Не следует, однако, забывать, что реализация \
         намеченных плановых заданий способствует подготовке \
