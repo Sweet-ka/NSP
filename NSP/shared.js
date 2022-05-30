@@ -17,7 +17,7 @@ export const menu = [
     }
 ];
 
-export const blogName = 'Блог о здоровом питани';
+export const blogName = 'Блог о здоровом питании';
 
 export const sale_info_text = 'Оформите дисконтный номер и пользуйтесь \
                         продукцией NSP без 40% розничной наценки';
@@ -31,17 +31,17 @@ export const advantages = [
 export const menu_footer = [
     {
         network: 'Telegram',
-        icon_src: './Assets/Tg.png',
+        icon_src: './Assets/tg.png',
         href: '#'
     },
     {
         network: 'VK',
-        icon_src: './Assets/Premium-icon-vk-2504953.png',
+        icon_src: './Assets/premium-icon-vk-2504953.png',
         href: '#'
     },
     {
         network: 'Instagramm',
-        icon_src: './Assets/Free-icon-instagram-2111463.png',
+        icon_src: './Assets/free-icon-instagram-2111463.png',
         href: '#'
     }
 ];
