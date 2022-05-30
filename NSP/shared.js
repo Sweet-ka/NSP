@@ -1,4 +1,4 @@
-export const logo_image = './assets/logo/NS-header-logo.png';
+export const logo_image = './Assets/logo/NS-header-logo.png';
 
 export const homeHash = 'home';
 
@@ -31,17 +31,17 @@ export const advantages = [
 export const menu_footer = [
     {
         network: 'Telegram',
-        icon_src: './assets/tg.png',
+        icon_src: './Assets/tg.png',
         href: '#'
     },
     {
         network: 'VK',
-        icon_src: './assets/premium-icon-vk-2504953.png',
+        icon_src: './Assets/premium-icon-vk-2504953.png',
         href: '#'
     },
     {
         network: 'Instagramm',
-        icon_src: './assets/free-icon-instagram-2111463.png',
+        icon_src: './Assets/free-icon-instagram-2111463.png',
         href: '#'
     }
 ];
