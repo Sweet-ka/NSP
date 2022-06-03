@@ -1,5 +1,13 @@
+@import url("./pages/entry_window/entry_window.css");
+@import url("./pages/header/header.css");
+
+
 :root {
     --background_decor: url(./Assets/diet-cover.jpeg);
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .body {
@@ -7,6 +15,7 @@
     box-sizing: border-box;
     font-family:Arial, Helvetica, sans-serif;
     color: #00000099;
+    position: relative;
 }
 a {
     text-decoration: none;
@@ -15,7 +24,7 @@ a {
 
 li {
     list-style-type: none;
-    margin-left: 20px;
+    margin: 0 30px;
 }
 
 /* p, h2 {
@@ -28,38 +37,6 @@ li {
     height: 100%;
     margin: auto;
     /* border: solid 1px cadetblue */
-}
-
-.header_container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header {
-    height: 80px;
-    align-items: center;
-}
-
-.header_title {
-    display: none;
-}
-
-.header_nav {
-    font-size: 20px;
-}
-
-
-.header_nav_list {
-    display: flex;
-}
-
-.logo_link, .menu {
-    cursor: pointer
-;}
-
-.logo_img {
-    width: 150px;
 }
 
 .decor {
@@ -178,6 +155,7 @@ li {
 .adver_content {
     position: sticky;
     top: 0;
+    order: 1;
 }
 
 .top-goods-title {

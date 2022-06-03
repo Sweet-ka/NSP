@@ -17,6 +17,9 @@ export class Header extends Base {
         this.nav.render();
         this.nav.addLiItem(menu, 'div', 'menu');
         this.nav.addLiContent(menu);
+        this.nav.addRegistrPanel(this.container.node);
+        this.nav.autor_btn.renderContent('Войти');
+        this.nav.registr_btn.renderContent('Зарегистрироваться');
     } 
 }
 
