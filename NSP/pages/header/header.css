@@ -1,0 +1,47 @@
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    align-items: center;
+}
+
+.header_title {
+    display: none;
+}
+
+.header_nav {
+    font-size: 20px;
+}
+
+
+.header_nav_list {
+    display: flex;
+    margin: 20px 0;
+}
+
+.logo_link, .menu {
+    cursor: pointer;
+}
+
+.logo_img {
+    width: 150px;
+}
+
+.autor_wrap {
+    display: flex;
+    justify-content: end;
+}
+
+.registr_btn {
+    margin-left: 12px;
+}
+
+.registr_btn, .autor_btn {
+    padding: 8px;
+    border-radius: 4px;
+    background-color: transparent;
+    border: solid 1px;
+}
