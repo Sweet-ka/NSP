@@ -13,7 +13,7 @@ export const menu = [
     },
     {
         name: 'О нас',
-        hash: 'about_as'
+        hash: 'personal'
     }
 ];
 

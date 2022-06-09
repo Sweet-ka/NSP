@@ -4,6 +4,7 @@ import { Home_content } from "./section_blog/home_content.js";
 import { Main } from "../main.js";
 import { Section } from "../section.js";
 import { Adver } from "./section_blog/adver.js";
+import { app } from "../app.js";
 
 export class Home extends Main {
     constructor(parentNode, className) {
@@ -37,5 +38,5 @@ export class Home extends Main {
     }
 }
 
-export const home_main = new Home(document.body, 'home_main');
+export const home_main = new Home(app.node, 'home-main');
 

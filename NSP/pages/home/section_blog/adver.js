@@ -1,6 +1,5 @@
 import { sale_info_text, advantages } from "../../../shared.js";
 import { Base } from "../../base.js";
-import { Nav } from "../../header/nav.js";
 
 export class Adver extends Base {
     constructor(parentNode, classname) {
@@ -19,10 +18,10 @@ export class Adver extends Base {
         this.advantages = [];
         this.renderAdvantages(advantages);
 
-        this.reg = new Base(this.adver_content.node, 'btn', 'reg');
-        this.reg.render();
-        this.reg.renderContent('Оформить дисконт');
-        this.reg.node.onclick = ()=> {
+        this.reg_discount = new Base(this.adver_content.node, 'btn', 'reg_discount');
+        this.reg_discount.render();
+        this.reg_discount.renderContent('Оформить дисконт');
+        this.reg_discount.node.onclick = ()=> {
             window.open('https://nsp25.com/signup?sid=123&market=25');
             return false;
         } ;

@@ -1,6 +1,7 @@
 import { menu } from '../../shared.js';
 import { Base } from '../base.js';
 import { Nav } from '../header/nav.js';
+import { Manager } from '../reg_entry_manager/reg_entry_manager.js';
 import { Logo } from './logo.js';
 
 export class Header extends Base {
@@ -18,8 +19,8 @@ export class Header extends Base {
         this.nav.addLiItem(menu, 'div', 'menu');
         this.nav.addLiContent(menu);
         this.nav.addRegistrPanel(this.container.node);
-        this.nav.autor_btn.renderContent('Войти');
-        this.nav.registr_btn.renderContent('Зарегистрироваться');
+        this.nav.autor_btn.renderContent('Личный кабинет');
+        this.nav.manager = new Manager(this.node, 'manager');
     } 
 }
 

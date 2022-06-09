@@ -1,4 +1,4 @@
-@import url("./pages/entry_window/entry_window.css");
+@import url("./pages/reg_entry_manager/entry_window/entry_window.css");
 @import url("./pages/header/header.css");
 
 
@@ -163,7 +163,7 @@ li {
     display: none;
 }
 
-.reg {
+.reg_discount {
     width: 100%;
     height: 35px;
     background-color: cadetblue;
