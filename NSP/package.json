@@ -1,0 +1,14 @@
+{
+  "name": "nsp",
+  "version": "1.0.0",
+  "description": "https://sweet-ka.github.io/NSP/NSP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sviatlana Shaliankova",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^2.3.3"
+  }
+}
