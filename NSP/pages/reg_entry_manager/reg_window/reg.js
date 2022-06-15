@@ -1,6 +1,7 @@
 import { Base } from "../../base.js"
 import { Email_wrap } from "../entry_window/email_wrap/email_wrap.js";
 import { Login_wrap } from "../entry_window/login_wrap/login_wrap.js";
+import { Pass } from "./password_get.js";
 
 export class Reg extends Base {
     constructor(parentNode, className){
@@ -26,7 +27,23 @@ export class Reg extends Base {
         this.confirm_reg_btn.renderContent('Зарегистрироваться');
         this.confirm_reg_btn.node.addEventListener('click', () => {
             if(this.login_wrap.loginCheck() & this.email_wrap.emailCheckReg()) {
-                console.log('yes!!')
+                const pass = new Pass();
+                let data = {
+                    login: this.login_wrap.input_from_login.node.value,
+                    email: this.email_wrap.input_from_email.node.value,
+                    password: pass.pass,
+                    avatar: ''
+                }
+                console.log(data);
+                fetch('http://127.0.0.1:5500/server.php',{
+                    method: 'get',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    } 
+                })
+                .then(data =>{
+                    console.log(data.text())
+                })
             }
         });
 

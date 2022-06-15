@@ -1,6 +1,5 @@
 import { menu } from "../../shared.js";
 import { Base } from "../base.js";
-import { Manager } from "../reg_entry_manager/reg_entry_manager.js";
 
 export class Nav extends Base {
     constructor(parentNode, className, classNameList, classNameItem) {
@@ -29,7 +28,8 @@ export class Nav extends Base {
         for (let i = 0; i < menu.length; i++) {
             this.li[i].node.innerHTML = menu[i].name;
             this.li[i].node.addEventListener('click', ()=>{
-            location.hash = menu[i].hash;            })
+            location.hash = menu[i].hash;
+        })
         }
     }
 

@@ -1,4 +1,4 @@
-import { app } from "./app.js";
+import { application } from "./application.js";
 import { footer } from "./footer/footer.js";
 import { header } from "./header/header.js";
 import { home_main } from "./home/home.js";
@@ -13,7 +13,7 @@ export const wfm = {
 
 export const components = [
     header,
-    app,
+    application,
     footer
 ];
 

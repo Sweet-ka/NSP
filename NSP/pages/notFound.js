@@ -1,4 +1,4 @@
-import { app } from "./app.js";
+import { application } from "./application.js";
 import { Base } from "./base.js";
 
 export class NotFound extends Base {
@@ -7,5 +7,5 @@ export class NotFound extends Base {
     }
 }
 
-export const notFound = new NotFound(app.node, 'not_found');
+export const notFound = new NotFound(application.node, 'not_found');
 notFound.renderContent('nothing');

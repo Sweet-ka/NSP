@@ -1,4 +1,4 @@
-import { app } from "../app.js";
+import { application } from "../application.js";
 import { Base } from "../base.js";
 
 export class Personal extends Base {
@@ -8,5 +8,5 @@ export class Personal extends Base {
 }
 
 
-export const personal = new Personal(app.node, 'div', 'personal');
+export const personal = new Personal(application.node, 'div', 'personal');
 personal.renderContent('Здесь будет личный кабинет');

@@ -29,7 +29,7 @@ export class Entry extends Base {
         this.entry_btn.node.addEventListener('click', () => {
             if(this.email_wrap.emailCheckEntry() & this.password_wrap.passwordCheck()) { //проверка из БД
                 console.log('submit');
-                console.log(this.email_wrap.input_from_email.node.value)    
+                //console.log(this.email_wrap.input_from_email.node.value);
             }
         });
 

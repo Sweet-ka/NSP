@@ -1,5 +1,6 @@
 import { logo_image } from "../../shared.js";
 import { Base } from "../base.js";
+import { Pass } from "../reg_entry_manager/reg_window/password_get.js";
 import { Img } from "./image.js";
 
 export class Logo extends Base {
